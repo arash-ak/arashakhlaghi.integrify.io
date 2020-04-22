@@ -1,0 +1,35 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jekyller.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Arash Akhlaghi's resume
+name: Arash Akhlaghi
+email: arash.akhlaghi@integrify.io
+email_full: mailto:youremail@me.com
+website: github.io/arash-ak
+website_full: https://jekyller.github.io/arash-ak
+github: trending
+twitter: twitter
+tel: +358 0000 000000
+tel_full: tel:+358000000000
+address:
+  street: Kallvikinniementie 18
+  postcode: 00980
+  city: Helsinki
+  country: Finland
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
